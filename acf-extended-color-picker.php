@@ -53,11 +53,11 @@ if ( ! class_exists( 'acf_plugin_extended_color_picker' ) ) :
 		public function __construct() {
 
 			// vars
-			$this->settings = array(
+			$this->settings = [
 				'version' => '2.1.2',
 				'url'     => plugin_dir_url( __FILE__ ),
 				'path'    => plugin_dir_path( __FILE__ )
-			);
+			];
 
 			// set text domain
 			// https://codex.wordpress.org/Function_Reference/load_plugin_textdomain
@@ -79,7 +79,7 @@ if ( ! class_exists( 'acf_plugin_extended_color_picker' ) ) :
 			 */
 			function acf_extended_color_picker_or_die() {
 
-				if ( ! class_exists( 'acf' ) || intval( str_replace( '.', '', acf_get_setting( 'version' ) ) ) < 540 ) {
+				if ( ! class_exists( 'acf' ) || (int) str_replace( '.', '', acf_get_setting( 'version' ) ) < 540 ) {
 					deactivate_plugins( plugin_basename( __FILE__ ) );
 					if ( isset( $_GET['activate'] ) ) {
 						unset( $_GET['activate'] );
@@ -91,11 +91,11 @@ if ( ! class_exists( 'acf_plugin_extended_color_picker' ) ) :
 			add_action( 'admin_init', 'acf_extended_color_picker_or_die' );
 
 			function acf_extended_color_picker_dependent_plugin_notice() {
-				echo '<div class="error"><p>' . __( "ACF RGBA Color Picker requires ACF PRO v5.4.0 or newer to be installed &amp; activated.", "acf-extended-color-picker" ) . '</p></div>';
+				echo '<div class="error"><p>' . __( 'ACF RGBA Color Picker requires ACF PRO v5.4.0 or newer to be installed &amp; activated.', 'acf-extended-color-picker' ) . '</p></div>';
 			}
 
 			// include field
-			add_action( 'acf/include_field_types', array( $this, 'include_field_types' ) ); // v5
+			add_action( 'acf/include_field_types', [ $this, 'include_field_types' ] ); // v5
 
 		}
 
