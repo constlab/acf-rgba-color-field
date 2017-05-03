@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ACF RGBA Color Picker v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-10 22:14+0000\n"
+"PO-Revision-Date: 2016-12-10 22:16+0000\n"
+"Last-Translator: thomas <t.meyer@me.com>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: de-DE"
+
+#: acf-extended-color-picker.php:92
+msgid ""
+"ACF RGBA Color Picker requires ACF PRO v5.4.0 or newer to be installed &amp; "
+"activated."
+msgstr ""
+"Für ACF RGBA Color Picker muss ACF PRO v5 installiert und aktiviert sein."
+
+#. Description of the plugin
+msgid ""
+"Adds an Advanced Custom Field field for an extended color picker with "
+"transparency option. This plugin needs the installation/activation of ACF "
+"PRO v5.4.0."
+msgstr ""
+"Erstellt ein Advanced Custom Field Feld für einen erweiterten Color Picker "
+"mit Transparenz-Option. Dieses Plugin benötigt die Installation/Aktivierung "
+"von ACF PRO v5.4.0."
+
+#: fields/acf-extended-color-picker-v5.php:36
+msgid "RGBA Color Picker"
+msgstr "RGBA Farb-Wähler"
+
+#. Name of the plugin
+msgid "ACF RGBA Color Picker"
+msgstr "ACF RGBA Color Picker"
+
+#. URI of the plugin
+msgid "https://github.com/tmconnect/ACF-RGBA-Color-Field"
+msgstr "https://github.com/tmconnect/ACF-RGBA-Color-Field"
+
+#. Author of the plugin
+msgid "Thomas Meyer"
+msgstr "Thomas Meyer"
+
+#. Author URI of the plugin
+msgid "www.dreihochzwo.de"
+msgstr "www.dreihochzwo.de"
