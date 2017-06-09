@@ -99,7 +99,7 @@ if ( ! class_exists( 'acf_field_extended_color_picker' ) ) :
 
 			}
 
-			$url     = apply_filters( "acf/extended_color_picker/url", $this->settings['url'] );
+			$url     = apply_filters( 'acf/extended_color_picker/url', $this->settings['url'] );
 			$version = $this->settings['version'];
 
 

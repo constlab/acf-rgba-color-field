@@ -1,0 +1,17 @@
+{
+  "name": "constlab/acf-rgba-color-field",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Kalinichenko",
+      "email": "kalinichenko@constlab.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "prefer-dist": true,
+  "require": {
+    "roave/security-advisories": "dev-master"
+  }
+}
