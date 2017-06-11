@@ -3,7 +3,7 @@
 Plugin Name: ACF RGBA Color Picker
 Plugin URI: https://github.com/tmconnect/ACF-RGBA-Color-Field
 Description: Adds an Advanced Custom Field field for an extended color picker with transparency option. This plugin needs the installation/activation of ACF PRO v5.4.0.
-Version: 2.1.3
+Version: 2.1.4
 Author: Thomas Meyer
 Author URI: www.dreihochzwo.de
 Text Domain: acf-extended-color-picker
@@ -112,7 +112,7 @@ if ( ! class_exists( 'acf_plugin_extended_color_picker' ) ) :
 
 
 			// include
-			include_once __DIR__ . 'fields/acf-extended-color-picker-v5.php';
+			include_once __DIR__ . '/fields/acf-extended-color-picker-v5.php';
 
 		}
 	}
