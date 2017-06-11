@@ -62,15 +62,6 @@ if ( ! class_exists( 'acf_plugin_extended_color_picker' ) ) :
 			// set text domain
 			// https://codex.wordpress.org/Function_Reference/load_plugin_textdomain
 			load_plugin_textdomain( 'acf-extended-color-picker', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-			load_plugin_textdomain( 'dhz_updater', false, dirname( plugin_basename( __FILE__ ) ) . '/assets/update/' );
-
-			//Initialize the update checker.
-			require __DIR__ . 'assets/update/plugin-update-checker.php';
-			$ExampleUpdateChecker = PucFactory::buildUpdateChecker(
-				'http://repository.dreihochzwo.de/plugins/acf-extended-color-picker/info.json',
-				__FILE__,
-				'acf-extended-color-picker'
-			);
 
 			/**
 			 * Let's make sure ACF Pro is installed & activated

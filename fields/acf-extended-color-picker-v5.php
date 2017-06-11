@@ -33,7 +33,7 @@ if ( ! class_exists( 'acf_field_extended_color_picker' ) ) :
 
 			// vars
 			$this->name     = 'extended-color-picker';
-			$this->label    = __( "RGBA Color Picker", 'acf-extended-color-picker' );
+			$this->label    = __( 'RGBA Color Picker', 'acf-extended-color-picker' );
 			$this->category = 'jquery';
 			$this->defaults = [
 				'default_value' => '',
@@ -44,7 +44,7 @@ if ( ! class_exists( 'acf_field_extended_color_picker' ) ) :
 				'url'     => plugin_dir_url( __DIR__ )
 			];
 
-			$palette    = apply_filters( "acf/extended_color_picker/palette", true );
+			$palette    = apply_filters( 'acf/extended_color_picker/palette', true );
 			$this->l10n = [
 				'palette' => $palette
 			];
